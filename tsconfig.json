@@ -1,0 +1,16 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "strictNullChecks": true,
+    "module": "commonjs", // Bu satırı ekleyin
+    "paths": {
+      "@zup-it/nimbus-backend-express": ["./express-client/src"],
+      "@zup-it/nimbus-backend-express/*": ["./express-client/src/*"],
+      "@zup-it/nimbus-backend-layout": ["./layout/src"],
+      "@zup-it/nimbus-backend-layout/*": ["./layout/src/*"],
+      "@zup-it/nimbus-backend-core": ["./core/src"],
+      "@zup-it/nimbus-backend-core/*": ["./core/src/*"]
+    }
+  },
+
+}
