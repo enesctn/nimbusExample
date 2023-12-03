@@ -1,5 +1,5 @@
 import { Response } from 'express'
-import { listMarkets } from '../services/product'
+import { listMarkets } from '../services/market'
 
 export async function listProductsController(response: Response) {
   await new Promise(resolve => setTimeout(resolve, 300))

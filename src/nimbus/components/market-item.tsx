@@ -11,7 +11,7 @@ export interface ProductItemProps {
   onPressDetails: Actions,
 }
 
-export const ProductItem: FC<ProductItemProps> = ({
+export const MarketItem: FC<ProductItemProps> = ({
   id,
   image,
   title,

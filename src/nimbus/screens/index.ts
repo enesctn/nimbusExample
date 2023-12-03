@@ -1,9 +1,9 @@
 import { RouteMap } from '@zup-it/nimbus-backend-express'
-import { Products } from './products'
-import { Product } from './product'
+import { Markets } from './markets'
+import { Market } from './market'
 
 
 export const routes: RouteMap = {
-  '/products': Products,
-  '/product': Product,
+  '/products': Markets,
+  '/product': Market,
 }

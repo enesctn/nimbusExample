@@ -10,7 +10,7 @@ interface ProductScreenProps extends ScreenRequest {
   }
 }
 
-export const Product: Screen<ProductScreenProps> = ({ getViewState }) => {
+export const Market: Screen<ProductScreenProps> = ({ getViewState }) => {
   const product = getViewState('product')
 
   return (
